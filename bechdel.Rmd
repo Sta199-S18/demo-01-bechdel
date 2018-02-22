@@ -10,6 +10,8 @@ output:
 
 In this mini analysis we work with the data used in the FiveThirtyEight story titled ["The Dollar-And-Cents Case Against Hollywood’s Exclusion of Women"](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/).
 
+## Data and packages
+
 We start with loading the packages we'll use.
 
 ```{r load-packages, message=FALSE}
@@ -33,6 +35,8 @@ The financial variables we'll focus on are the following:
 - `intgross_2013`: Total International (i.e., worldwide) gross in 2013 inflation adjusted dollars
 
 And we'll also use the `binary` and `test_clean` variables for grouping.
+
+## Analysis
 
 Let's take a look at how median budget and gross vary by whether the movie passed the Bechdel test.
 
